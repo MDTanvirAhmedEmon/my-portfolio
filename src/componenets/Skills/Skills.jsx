@@ -11,6 +11,7 @@ import mongodb from "../../../public/skills/mongodb.png"
 import mongoose from "../../../public/skills/mongoose.png"
 import postgresql from "../../../public/skills/postgresqul.png"
 import prisma from "../../../public/skills/prisma.webp"
+import tailwind from "../../../public/skills/tailwind.png"
 
 
 
@@ -27,6 +28,7 @@ const Skills = () => {
                             <img src={css} alt="" />
                             <img src={js} alt="" />
                             <img src={ts} alt="" />
+                            <img src={tailwind} alt="" />
                             <img src={react} alt="" />
                             <img src={redux} alt="" />
                             <img src={next} alt="" />

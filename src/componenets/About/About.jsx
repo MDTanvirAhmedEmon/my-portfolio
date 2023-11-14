@@ -9,10 +9,13 @@ const About = () => {
             <h1 className="text-4xl text-white font-bold mb-2 ">About Me</h1>
             <div className="mt-2 border-b-4 border-purple-500 w-20 mx-auto float-left mb-5"></div>
             <p className="text-lg text-white clear-both">
-              Hi! My name is Tanvir Ahmed Emon. I am Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Repellendus pariatur iure aut autem,
-              quod sapiente nihil, est quo velit odio id ad ut ipsa sit error
-              neque necessitatibus consectetur ratione!consectetur adipisicing elit. Repellendus pariatur iure aut autem,quod sapiente nihil, est quo velit odio id ad ut ipsa sit errorneque necessitatib consectetur ratione!
+              Hi! My name is Tanvir Ahmed Emon a passionate and lifelong learner
+              web developer with strength in MERN stack and related technology
+              such as Redux-Toolkit, Typescript, and Postgresql. I am eager to
+              contribute my skills to dynamic web projects and learn from
+              industry experts. I want to improve my web development skills and
+              stay updated with industry trends. My long-term goal is to become
+              a proficient full-stack web developer.
             </p>
           </div>
           <div>
