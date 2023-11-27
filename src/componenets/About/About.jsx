@@ -2,7 +2,7 @@ import image from "../../../public/imagelogo.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="md:h-[700px] py-20 md:py-0">
+    <div id="about" className="md:h-[600px] py-20 md:py-0">
       <div className="w-auto xl:w-[1200px] h-full mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-20 h-full mx-3 xl:mx-0">
           <div>

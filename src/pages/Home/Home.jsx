@@ -5,6 +5,8 @@ import bgImage from "../../../public/bg-3.jpg";
 import About from "../../componenets/About/About";
 import Skills from "../../componenets/Skills/Skills";
 import { useEffect, useState } from "react";
+import Projects from "../../componenets/Projects/Projects";
+import Contact from "../../componenets/Contact/Contact";
 
 const Home = () => {
   const imageStyle = {
@@ -75,6 +77,8 @@ const Home = () => {
       )}
     <About></About>
     <Skills></Skills>
+    <Projects></Projects>
+    <Contact></Contact>
     </>
   );
 };
