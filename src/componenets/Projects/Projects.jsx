@@ -6,9 +6,9 @@ const Projects = () => {
       (res) => res.json()
     )
   );
-  console.log(data);
 
-  if (isLoading) {
+
+  if (isLoading || !data || !data.data || !Array.isArray(data.data)) {
     return <p className="text-4xl text-center mt-11 text-white">Loading...</p>;
   }
 
@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="mt-2 border-b-4 border-purple-500 w-28 mb-5 md:mb-10 mx-auto float-left"></div>
         <div className="w-full grid gird-cols-1 justify-center md:grid-cols-3 md:gap-10">
           {data?.data?.map((project) => (
-            <ProjectCart key={project._id} project={project}></ProjectCart>
+            <ProjectCart key={project?._id} project={project}></ProjectCart>
           ))}
         </div>
       </div>
