@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const ProjectCart = ({ project }) => {
   return (
     <div className="text-center py-10  shadow-xl">
-      <img className="" src={project?.image} alt="" />
+      <img className=" shadow shadow-[#ffffff63]" src={project?.image} alt="" />
       <div>
         <p className="text-white text-3xl mt-4 font-bold">{project.name}</p>
         <Link to={`/project/${project._id}`}>
