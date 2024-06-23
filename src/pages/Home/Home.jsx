@@ -59,7 +59,7 @@ const Home = () => {
               </p>
               <Link
                 target="_blank"
-                to={`https://drive.google.com/file/d/1DGiKP4bEe1FAxBY98zu_XaFSmt5CqICX/view?usp=drive_link`}
+                to={`https://drive.google.com/file/d/1EVwnaaRAKRxyR79_N8ElP00xqp4tsZoP/view?usp=drive_link`}
               >
                 <button className="text-md uppercase bg-purple-500 py-2 px-4 rounded-md text-white font-bold mt-7 shadow-lg">
                   Download Resume
