@@ -6,7 +6,7 @@ const Projects = () => {
       (res) => res.json()
     )
   );
-
+console.log(data);
 
   if (isLoading || !data || !data.data || !Array.isArray(data.data)) {
     return <p className="text-4xl text-center mt-11 text-white">Loading...</p>;
