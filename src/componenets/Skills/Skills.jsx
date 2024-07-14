@@ -9,8 +9,6 @@ import node from "../../../public/skills/nodejs.png"
 import express from "../../../public/skills/express.png"
 import mongodb from "../../../public/skills/mongodb.png"
 import mongoose from "../../../public/skills/mongoose.png"
-import postgresql from "../../../public/skills/postgresqul.png"
-import prisma from "../../../public/skills/prisma.webp"
 import tailwind from "../../../public/skills/tailwind.png"
 
 
@@ -23,7 +21,7 @@ const Skills = () => {
                     <div className="w-full mx-3 xl:mx-0">
                         <h1 className="text-4xl text-white font-bold mb-2">Skills</h1>
                         <div className="mt-2 border-b-4 border-purple-500 w-14 mx-auto float-left mb-14"></div>
-                        <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-16 justify-center items-center clear-left ">
+                        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-16 justify-center items-center clear-left ">
                             <img src={html} alt="" />
                             <img src={css} alt="" />
                             <img src={js} alt="" />
@@ -36,8 +34,6 @@ const Skills = () => {
                             <img src={express} alt="" />
                             <img src={mongodb} alt="" />
                             <img src={mongoose} alt="" />
-                            <img src={postgresql} alt="" />
-                            <img src={prisma} alt="" />
                         </div>
                     </div>
                 </div>
