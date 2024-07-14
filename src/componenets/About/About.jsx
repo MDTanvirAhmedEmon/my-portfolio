@@ -11,7 +11,7 @@ const About = () => {
             <p className="text-lg text-white clear-both">
               Hi! My name is Tanvir Ahmed Emon a passionate and lifelong learner
               web developer with strength in MERN stack and related technology
-              such as Redux-Toolkit, Typescript, and Postgresql. I am eager to
+              such as Redux-Toolkit, Next Js, Typescript, and Mongoose. I am eager to
               contribute my skills to dynamic web projects and learn from
               industry experts. I want to improve my web development skills and
               stay updated with industry trends. My long-term goal is to become
